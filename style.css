@@ -1,0 +1,120 @@
+body{
+.NavContainer{
+    display: flex;
+    justify-content: space-evenly;
+   
+
+ }
+.Adds{
+   
+    background-color: #FCE4DE;
+    width: 100%;
+    font-family: Avenir Next, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: .5em;
+}
+.ShopExp{
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 1em;
+    font-family: Avenir Next, sans-serif;
+    font-size: 14px;
+}
+
+.pure{
+    height:100px;
+    width:100px;
+    object-fit: scale-down;
+}
+.Icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    
+    
+}
+
+.search{
+    height:50px;
+    width:50px;
+    object-fit: scale-down; 
+}
+
+.account{
+    height:50px;
+    width:50px;
+    object-fit: scale-down; 
+}
+
+.cart{
+    height:50px;
+    width:50px;
+    object-fit: scale-down; 
+}
+
+.imgSlideContainer{
+    /*width: 100%;*/
+    position: relative;
+    margin: auto;
+    
+}
+.Prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+  padding: 16px;
+  border: lightgrey ;
+  transition: 0.6s ease;
+  background-color: white;
+  
+}
+
+.Next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    right: 0;
+    padding: 16px;
+    border: lightgrey ;
+    transition: 0.6s ease;
+    background-color: white;
+    
+}
+.headerContainer{
+position: relative;
+margin-left: 20%;
+margin-right: 20%;
+
+}
+.Best{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    padding: 1em;
+}
+
+.Popular{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    left: 1.5%;
+    top: 80%;
+}
+.shopNow{
+    right: 50%;
+    border: black;
+    position: absolute;
+    right: 1.5%;
+    top: 80%;
+    text-decoration: underline;
+}
+.imgProductContainer{
+    display: flex;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+}
